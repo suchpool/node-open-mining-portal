@@ -494,7 +494,7 @@ node [path to scripts/blockNotify.js] [listener host]:[listener port] [listener 
 ```
 Example: inside `dogecoin.conf` add the line
 ```
-blocknotify="node scripts/blockNotify.js 127.0.0.1:8117 mySuperSecurePassword dogecoin %s"
+blocknotify=node scripts/blockNotify.js 127.0.0.1:8117 mySuperSecurePassword dogecoin %s
 ```
 
 Alternatively, you can use a more efficient block notify script written in pure C. Build and usage instructions
